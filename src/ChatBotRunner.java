@@ -46,10 +46,10 @@ public class ChatBotRunner {
             System.out.println("The sum is "+ cb.addNumbers(nums[0], nums[1], nums[2]));
 
         }
-
-
-
+        cb.hi();
+        System.out.println(cb.one());
        System.out.println(cb.goodbye());
+
        scan.close();
     }
 }

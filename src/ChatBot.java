@@ -16,6 +16,14 @@ public class ChatBot {
         System.out.println("and I am a chat bot! How are you today?");
     }
 
+    //prints hi
+    public void hi() {
+        System.out.println("hi");
+    }
+    //returns 1
+    public int one() {
+        return 1;
+    }
     // method that prints the weather
     public void weather() {
         System.out.println("I actually don't know much about the weather! Ha ha!");
